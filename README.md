@@ -1,4 +1,4 @@
-# TrendyWoofz - Interactive Website
+# TrendyWoofz - Website
 
 
 
