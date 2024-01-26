@@ -46,16 +46,40 @@ a:hover {
   margin-right: 120px;
 }
 
-/* Main content CSS */
+/* Main Page content CSS */
 main {
   padding: 240px;
 }
 
 h1 {
-  padding-top: 30px;
+  padding-top: 20px;
 }
+
+p {
+  font-size: 14px;
+}
+
+.about-section {
+margin: 40px 0 40px 0;
+ display: flex; 
+  align-items: center;
+ 
+}
+
+.about {
+  margin: 0 80px 0 140px;
+    flex: 1; 
+  margin: 0 20px;
+  padding: 0 80px;
+}
+
+img {
+  padding-right: 60px;
+  height: 480px;
+}
+
 /* Footer CSS */
 footer {
   text-align: center;
-  padding: 40px 60px;
+  padding: 15px 60px;
 }
