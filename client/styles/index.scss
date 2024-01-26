@@ -1,21 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 
-html, 
-body {
+html, body {
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: #4D3422;
 }
 
+/* Navigation bar CSS */
 header {
   text-align: center;
-  margin: 25px 60px;
+  padding: 20px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #FFFFFF; /* Add background color to make it visually sticky */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
 }
 
+a {
+  margin-right: 50px;
+  padding-top: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #4D3422;
+  display: inline-block;
+  padding-bottom: 15px;
+  line-height: 1;
+  width: 80px;
+  box-sizing: border-box;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  /* Remove box-shadow from .nav class */
+}
+
+.logo {
+  height: 50px;
+  margin-right: 120px;
+}
+
+/* Main content CSS */
 main {
-  padding: 340px;
+  padding: 240px;
 }
 
+/* Footer CSS */
 footer {
   text-align: center;
-  margin: 40px 60px;
+  padding: 40px 60px;
 }
