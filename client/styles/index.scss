@@ -59,6 +59,10 @@ p {
   font-size: 14px;
 }
 
+ul {
+  list-style: none;
+}
+
 .about-section {
 margin: 40px 0 40px 0;
  display: flex; 
@@ -75,8 +79,65 @@ margin: 40px 0 40px 0;
 
 img {
   padding-right: 60px;
-  height: 480px;
+  height: 470px;
 }
+
+// Form CSS
+ textarea[name="form" ] {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input[name="form" ] {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  margin-top: 20px;
+  width: 385px;
+  height: 30px;
+  border-radius: 12px;
+  border: 1px solid darkgrey; 
+  background-color: #7f6756;
+  color: #FFFFFF;
+}
+
+button:hover {
+  background-color: #675040;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  padding: 5px;
+  margin-top: 20px;
+  width: 370px;
+  height: 30px; 
+  border-radius: 12px;
+  border: 1px solid darkgrey; 
+}
+
+textarea {
+  height: 60px; 
+  border-radius: 8px;
+}
+
+
+  .form {
+    font-size: 15px;
+   
+  }
+
+  .container {
+  display: flex;
+  align-items: center; 
+}
+
+.container img {
+  margin: 10px 25px 0 200px; 
+}
+
 
 /* Footer CSS */
 footer {
