@@ -41,7 +41,6 @@ a:hover {
 
 .logo {
   height: 50px;
-  margin-right: 120px;
 }
 
 /* Main Page content CSS */
@@ -123,7 +122,7 @@ textarea {
 
 
   .form {
-    font-size: 15px;
+    font-size: 16px;
    
   }
 
@@ -180,7 +179,7 @@ footer {
 }
 
 .footer-nav {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   font-size: 15px;
 }
  
@@ -231,8 +230,8 @@ color: #4d3422;
 .divider {
   width: 1px;
   margin-top: 30px;
-  height: 70%; /* Adjust the height as needed */
-  background-color: #ccc; /* Color of the divider */
+  height: 70%; 
+  background-color: #ccc; 
 }
 
 .left-block{
@@ -269,21 +268,668 @@ color: #4d3422;
 // Media queries
 // Desktop screens
 
-// Header
+@media all and (max-width: 2000px) {
+   input {
+    width: 430px;
+  height: 40px; 
+  }
 
-// Main content
+  textarea {
+    width: 430px;
+  height: 70px; 
+  }
 
-// Footer
+  button {
+  width: 445px;
+  height: 40px;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+.price {
+  font-size: 18px;
+}
+   .card {
+     width: 300px;
+  height: 400px;
+  }
+
+  .card img {
+  height: 320px;
+  }
+
+  .container img {
+    height: 580px;
+  }
+
+  .form {
+    font-size: 16px;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+  .about-section img {
+height: 580px;
+  }
+
+ h1 {
+    font-size: 2.8rem;
+  }
+
+  header a {
+    font-size: larger;
+    width: 100px;
+  }
+  .logo {
+    height: 60px;
+  }
+
+  footer a {
+    font-size: large;
+  }
+
+  .footer-block {
+    height: 260px;
+  }
+  .footer-block p {
+    font-size: xx-large;
+  }
+
+  .footer-block img {
+height: 60px;
+  }
+
+  .footer-line1 {
+    margin-top: 140px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 45px;
+  }
+
+  .right-block input {
+ width: 460px;
+  height: 35px; 
+}
+
+.right-block a {
+  font-size: larger;
+}
+}
+
+
+@media all and (max-width: 1800px) {
+   input {
+    width: 400px;
+  height: 35px; 
+  }
+
+  textarea {
+    width: 400px;
+  height: 65px; 
+  }
+
+  button {
+  width: 415px;
+  height: 35px;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+.price {
+  font-size: 16px;
+}
+   .card {
+     width: 280px;
+  height: 380px;
+  }
+
+  .card img {
+  height: 300px;
+  }
+  .container img {
+    height: 560px;
+  }
+  
+  .form {
+    font-size: 14px;
+  }
+
+  .about {
+    font-size: 16px;
+  }
+  .about-section img {
+height: 560px;
+  }
+
+ h1 {
+    font-size: 2.5rem;
+  }
+
+  header a {
+    font-size: larger;
+    width: 100px;
+  }
+  .logo {
+    height: 55px;
+  }
+
+  footer a {
+    font-size: medium;
+  }
+
+  .footer-block {
+    height: 240px;
+  }
+  .footer-block p {
+    font-size: xx-large;
+  }
+
+  .footer-block img {
+height: 60px;
+  }
+
+  .footer-line1 {
+    margin-top: 130px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 35px;
+  }
+
+  .right-block input {
+ width: 440px;
+  height: 30px; 
+}
+
+.right-block a {
+  font-size: large;
+}
+}
+
+// 1600px is standard width
+@media all and (max-width: 1600px) {
+
+  input {
+    width: 370px;
+  height: 30px; 
+  }
+
+  textarea {
+    width: 370px;
+  height: 60px; 
+  }
+
+  button {
+  width: 385px;
+  height: 30px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+.price {
+  font-size: 14px;
+}
+  .card {
+     width: 260px;
+  height: 360px;
+  }
+
+  .card img {
+  height: 280px;
+  }
+
+  .container img {
+    height: 470px;
+  }
+
+  .form {
+    font-size: 12px;
+  }
+  
+  .about {
+    font-size: 14px;
+  }
+  .about-section img {
+height: 470px;
+  }
+   h1 {
+    font-size: 2.2rem;
+  }
+
+  header a {
+    font-size: large;
+    width: 90px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+  footer a {
+    font-size: medium;
+  }
+  .footer-block {
+    height: 220px;
+  }
+  .footer-block p {
+    font-size: x-large;
+  }
+
+  .footer-block img {
+height: 55px;
+  }
+
+  .footer-line1 {
+    margin-top: 120px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 30px;
+  }
+
+.right-block input {
+ width: 320px;
+  height: 28px; 
+}
+
+.right-block a {
+  font-size: medium;
+}
+
+}
 
 
 
+@media all and (max-width: 1400px) {
+   input {
+    width: 340px;
+  height: 25px; 
+  }
+
+  textarea {
+    width: 340px;
+  height: 55px; 
+  }
+
+  button {
+  width: 355px;
+  height: 25px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+.price {
+  font-size: 12px;
+}
+   .card {
+     width: 240px;
+  height: 340px;
+  }
+  .card img {
+  height: 260px;
+  }
+
+  .container img {
+    height: 380px;
+  }
+
+  .form {
+    font-size: 10px;
+  }
+  
+  .about {
+    font-size: 12px;
+  }
+  .about-section img {
+height: 380px;
+  }
+
+   h1 {
+    font-size: 1.9rem;
+  }
+  header a {
+    font-size: medium;
+    width: 80px;
+  }
+  .logo {
+    height: 45px;
+  }
+
+  footer a {
+    font-size: small;
+  }
+  .footer-block p {
+    font-size: larger;
+    padding-top: 40px;
+  }
+
+  .footer-block img {
+height: 50px;
+  }
+
+  .footer-block {
+    height: 180px;
+    
+}
+
+.footer-line1 {
+    margin-top: 110px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 25px;
+  }
+
+  .right-block input {
+ width: 280px;
+  height: 26px; 
+}
+
+.right-block a {
+  font-size: small;
+}
+}
+
+@media all and (max-width: 1200px) {
+    input {
+    width: 310px;
+  height: 20px; 
+  }
+
+  textarea {
+    width: 310px;
+  height: 50px; 
+  }
+
+  button {
+  width: 325px;
+  height: 20px;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+  }
+.price {
+  font-size: 10px;
+}
+     .card {
+     width: 220px;
+  height: 320px;
+  }
+  .card img {
+  height: 240px;
+  }
+
+  .container img {
+    height: 300px;
+  }
+  
+  .form {
+    font-size: 8px;
+  }
+
+  .about {
+    font-size: 10px;
+  }
+  .about-section img {
+height: 300px;
+  }
+   h1 {
+    font-size: 1.6rem;
+  }
+  header a {
+    font-size: small;
+    width: 70px;
+    margin-right: 60px;
+  }
+  .logo {
+    height: 40px;
+  }
+  footer a {
+    font-size: smaller;
+  }
+  .footer-block p {
+    font-size: large;
+    padding-top: 35px;
+  }
+
+  .footer-block img {
+height: 45px;
+  }
+  .footer-block {
+    height: 160px;
+}
+
+.footer-line1 {
+    margin-top: 100px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 20px;
+  }
+
+  .right-block input {
+ width: 240px;
+  height: 24px; 
+}
+
+.right-block a {
+  font-size: smaller;
+}
+
+.divider {
+  height: 80%;
+  margin-top: 25px;
+}
+}
+
+@media all and (max-width: 1000px) {
+    input {
+    width: 280px;
+  height: 15px; 
+  }
+
+  textarea {
+    width: 280px;
+  height: 45px; 
+  }
+
+  button {
+  width: 295px;
+  height: 15px;
+  }
+  h3 {
+    font-size: 0.6rem;
+  }
+.price {
+  font-size: 8px;
+}
+     .card {
+     width: 200px;
+  height: 300px;
+  }
+  .card img {
+  height: 220px;
+  }
+
+  .container img {
+    height: 220px;
+  }
+
+  .form {
+    font-size: 6px;
+  }
+  
+  .about {
+    font-size: 8px;
+  }
+  .about-section img {
+height: 220px;
+  }
+   h1 {
+    font-size: 1.3rem;
+  }
+   header a {
+    font-size:smaller;
+    width: 100px;
+    margin-right: 50px;
+  }
+  .logo {
+    height: 35px;
+  }
+  footer a {
+    font-size: x-small;
+  }
+  .footer-block p {
+    font-size: medium;
+    padding-top: 30px;
+  }
+
+  .footer-block img {
+height: 40px;
+  }
+  .footer-block {
+    height: 160px;
+}
+.footer-line1 {
+    margin-top: 90px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 15px;
+  }
+
+   .right-block input {
+ width: 200px;
+  height: 22px; 
+}
+
+.right-block a {
+  font-size: x-small;
+}
+  .divider {
+  height: 80%;
+  margin-top: 20px;
+}
+ 
+}
+
+@media all and (max-width: 850px) {
+   input {
+    width: 250px;
+  height: 10px; 
+  }
+
+  textarea {
+    width: 250px;
+  height: 40px; 
+  }
+
+  button {
+  width: 265px;
+  height: 10px;
+  }
+
+  h3 {
+    font-size: 0.4rem;
+  }
+  .price {
+  font-size: 6px;
+}
+ .card {
+     width: 180px;
+  height: 280px;
+  }
+  .card img {
+  height: 200px;
+  }
+
+  .container img {
+    height: 170px;
+  }
+
+  .form {
+    font-size: 4px;
+  }
+  
+  .about {
+    font-size: 6px;
+  }
+  .about-section img {
+height: 170px;
+  }
+   h1 {
+    font-size: 1.1rem;
+  }
+   header a {
+    font-size:x-small;
+    width: 100px;
+  }
+  .logo {
+    height: 30px;
+  }
+  footer a {
+    font-size: xx-small;
+  }
+
+  .footer-block p {
+    font-size: small;
+    padding-top: 25px;
+  }
+
+  .footer-block img {
+height: 35px;
+  }
+  .footer-block {
+    height: 140px;
+}
+.footer-line1 {
+    margin-top: 80px;
+  }
+
+  .footer-line2 {
+    margin-bottom: 10px;
+  }
+
+   .right-block input {
+ width: 150px;
+  height: 20px; 
+}
+
+.right-block a {
+  font-size: xx-small;
+}
+
+.divider {
+  height: 80%;
+  margin-top: 15px;
+}
+}
 
 
 
 // Mobile devices
+// 700px and below
 
-// Header
-
-// Main content
-
-// Footer
+@media all and (max-width: 700px) {
+  .about {
+    font-size: 4px;
+  }
+  .about-section img {
+height: 100px;
+  }
+   h1 {
+    font-size: 0.8rem;
+  }
+   header a {
+    font-size:xx-small;
+    width: 100px;
+  }
+  .logo {
+    height: 25px;
+  }
+}
