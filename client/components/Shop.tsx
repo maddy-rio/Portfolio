@@ -13,7 +13,7 @@ function Shop() {
    
       </div>
       <div className="card">
-        <h3>Woofz Collar</h3>
+        <h3>Classic Collar</h3>
         <p className="price">$50 NZD</p>
         <img src="Collar.png" alt="Woofz Collar" />
        
@@ -31,7 +31,7 @@ function Shop() {
         
       </div>
       <div className="card">
-        <h3>Ultimate Bundle</h3>
+        <h3>Signature Bundle</h3>
         <p className="price">$99 NZD</p>
         <img src="TrendyWoofz.png" alt="Brand logo" />
       
