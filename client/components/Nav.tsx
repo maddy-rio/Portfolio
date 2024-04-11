@@ -1,11 +1,11 @@
 function Nav() {
   return (
     <header className="nav">
-      <img className="logo" src="IMG.jpeg" />
-      <a href="/">Home</a>
-      <a href="/about">About Us</a>
-      <a href="/shop">Shop All</a>
-      <a href="/contact">Contact</a>
+      <a href="#section-header">home</a>
+      <a href="#section-about">about me</a>
+      <a href="#section-skills">skills</a>
+      <a href="#section-projects">projects</a>
+      <a href="#section-contact">contact</a>
     </header>
   )
 }
