@@ -1,7 +1,7 @@
 function footer() {
  return (
     <section id="section-footer">
-        <p>© 2024 | Designed & coded by Maddy Rio </p>
+        <p className="footer">© 2024 | Designed & coded by Maddy Rio </p>
     </section>
  )
 }
