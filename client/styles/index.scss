@@ -54,7 +54,6 @@ header {
 
 .bm-menu {
  top: 0;
- position: fixed; 
   background: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   display: flex;
@@ -62,7 +61,6 @@ header {
   align-items: center; 
   justify-content: center;
   height: 100vh;
-  overflow-y: auto;
 }
 
 .bm-item-list {
