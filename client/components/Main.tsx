@@ -3,8 +3,18 @@ function Main() {
   return (
     <main>
       <section id="section-header">
-        <h1>Hey there 👋🏻</h1>
-        <h2>I'm Maddy Rio - Software Developer</h2>
+        <img className="profile" src="profile.png"></img>
+        <div className="header">
+        <h1>Hiya, I'm Maddy!</h1>
+        <h2>A <span className="bold">Front-end Developer</span> who loves...</h2>
+        {/* <h2 id="hobbies">Furry friends 🐾</h2>
+      <h2 id="hobbies">Time with family 🏡</h2>
+        <h2 id="hobbies">Travelling 🌍</h2>
+        <h2 id="hobbies">Fishing for Gurney's 🎣</h2>
+        <h2 id="hobbies">Self Development ⚡️</h2>
+        <h2 id="hobbies">Reformer Pilates 🧘🏻‍♀️</h2>
+        <h2 id="hobbies">Walks on the beach 🏖</h2> */} 
+        </div> 
       </section>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f4e2e2" fill-opacity="1" d="M0,0L720,128L1440,96L1440,0L720,0L0,0Z"></path></svg>
       

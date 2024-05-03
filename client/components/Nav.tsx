@@ -28,11 +28,7 @@ function Nav() {
   return (
     <header className="nav">
       <Sidebar />
-      <a onClick={() => SmoothScroll('#section-header')}>home</a>
-      <a onClick={() => SmoothScroll('#section-about')}>about me</a>
-      <a onClick={() => SmoothScroll('#section-skills')}>skills</a>
-      <a onClick={() => SmoothScroll('#section-projects')}>projects</a>
-      <a onClick={() => SmoothScroll('#section-contact')}>contact</a>
+ 
     </header>
   )
 }

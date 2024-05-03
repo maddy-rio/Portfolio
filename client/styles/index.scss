@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap');
 
 
 html, body {
@@ -17,18 +17,18 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #FFFFFF; 
+  background-color: #ffffff; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 // Sidebar CSS
 
 .bm-burger-button {
-  display: none;
+ 
   position: fixed;
   width: 28px;
   height: 20px;
-  right: 20px;
+  right: 30px;
   top: 20px;
   
 }
@@ -53,14 +53,17 @@ header {
 }
 
 .bm-menu {
- top: 0;
   background: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   display: flex;
   flex-direction: column;
   align-items: center; 
   justify-content: center;
-  height: 100vh;
+
+}
+
+.bm-menu-wrap {
+  top: 0;
 }
 
 .bm-item-list {
@@ -129,8 +132,39 @@ a {
 
 #section-header {
 background-color: #f4e2e2;
-margin-top: -2vw;
-padding: 180px 0;
+margin-top: -6vw;
+padding: 120px 0 0 50px;
+font-size: xx-large;
+color: black;
+font-family: "Mada", sans-serif;
+
+line-height: 0.8;
+letter-spacing: 2px;
+text-align: start;
+display: flex;
+}
+
+
+#section-header h1, h2 {
+  font-weight: 500;
+}
+
+
+#hobbies {
+line-height: 1.8;
+letter-spacing: 4px;
+}
+
+.profile {
+  height:400px;
+}
+
+.header {
+  padding: 40px 0 0 40px;
+}
+
+.bold {
+  font-weight: 900;
 }
 
 
