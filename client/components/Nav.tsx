@@ -1,34 +1,16 @@
-// Smooth scroll to sections
-function SmoothScroll(target: string): void {
-  const element = document.querySelector<HTMLElement>(target);
-  element?.scrollIntoView({ behavior: 'smooth' });
-}
 
-
-// Sidebar menu
-
-import React from 'react';
-import { slide as Menu } from 'react-burger-menu';
-
-const Sidebar: React.FC = () => {
-  return (
-    <Menu right >
-      <a className="sidebar-link"  onClick={() => SmoothScroll('#section-header')}>home</a>
-      <a className="sidebar-link"  onClick={() => SmoothScroll('#section-about')}>about me</a>
-      <a className="sidebar-link" onClick={() => SmoothScroll('#section-skills')}>skills</a>
-      <a className="sidebar-link" onClick={() => SmoothScroll('#section-projects')}>projects</a>
-      <a className="sidebar-link" onClick={() => SmoothScroll('#section-contact')}>contact</a>
-    </Menu>
-  );
-};
-
-
-// Standard nav bar
+// Nav bar
 function Nav() {
   return (
     <header className="nav">
-      <Sidebar />
- 
+      <img onClick={() => window.location.href = "/"} src="home.png"></img>
+  
+   <div className="nav-links">
+    <a href="/about">About</a>
+    <a href="/skills">Skills</a>
+    <a href="/projects">Projects</a>
+    <a href="/contact">Contact</a>
+    </div>
     </header>
   )
 }
