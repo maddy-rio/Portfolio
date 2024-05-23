@@ -1,4 +1,5 @@
 import Nav from './Nav'
+import Footer from './Footer'
 
   
 
@@ -24,16 +25,18 @@ function Contact() {
         <>
           <Nav />
            <section>
-           <h1 className="page-header">Contact us</h1>
+           <h1 className="page-header">Get in touch!</h1>
            <p>Fill out the form below to get in touch</p>
            <form className="contact-form" >
       <input type="name" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <input type="phone" name="phone" placeholder="Your number" required />
       <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit" >Submit enquiry</button>
+      <button type="submit" >Submit</button>
     </form>
            </section>
+
+<Footer/>
       
 
 </>

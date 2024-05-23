@@ -1,6 +1,7 @@
 
 import Nav from './Nav'
 import Main from './LandingPage'
+import Footer from './Footer'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <div className="app">
         <Nav />
         <Main/>
-
+       <Footer />
       </div>
     </>
   )

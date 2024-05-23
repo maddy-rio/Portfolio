@@ -10,6 +10,9 @@ html, body {
   
 }
 
+
+// Nav bar CSS
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -66,7 +69,12 @@ letter-spacing: 0.5px;
 }
 }
 
+
+
+// Landing Page CSS
+
 #landingPage {
+
   margin-top: 85px;
  display: flex;
  justify-content: space-evenly;
@@ -96,6 +104,32 @@ letter-spacing: 0.5px;
   align-content: stretch;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+// Footer CSS
+
+.footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+padding-right: 30px;
+}
+
+.footer p {
+  margin-right: 10px;
+  font-size: medium;
+}
+
+.footer img {
+  width: 25px;
+  padding: 0 5px;
+
+}
+
+.footer img:hover {
+  cursor: pointer;
+  transform: scale(1.1)
 }
 
 
