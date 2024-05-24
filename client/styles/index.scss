@@ -106,6 +106,105 @@ letter-spacing: 0.5px;
   justify-content: flex-start;
 }
 
+// Projects page CSS
+
+.projects-header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.projects-header h1 {
+ padding-right: 15px;
+}
+
+.projects-header img {
+  height: 25px;
+  padding-left: 10px;
+}
+
+.projects-header img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#icon {
+  margin-top: 10px;
+  width: 45px;
+  padding:5px;
+}
+
+#icon:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: x-large;
+}
+
+.projects-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+#left-section {
+  height: 480px;
+  display: flex;
+  padding: 0 120px 0 120px;
+  flex-direction: row;
+  align-items: center;
+}
+
+#right-section {
+  height: 480px;
+  display: flex;
+  padding: 0 120px 0 120px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.mockup {
+  padding-right: 50px;
+  height: 260px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.mockup:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+// Projects footer {
+
+  .projects-footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  padding-right: 30px;
+  }
+  
+  .projects-footer p {
+    margin-right: 10px;
+    font-size: medium;
+  }
+  
+  .projects-footer img {
+    width: 25px;
+    padding: 0 5px;
+  
+  }
+  
+  .projects-footer img:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+  }
+
 // Footer CSS
 
 .footer {
