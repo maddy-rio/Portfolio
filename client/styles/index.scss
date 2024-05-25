@@ -151,6 +151,45 @@
   box-shadow: 4vmin 0 0.6780466886468124vmin currentColor;
 }
 
+.background span:nth-child(13) {
+  color: #fc5c7d;
+  top: 25%;
+  left: 15%;
+  animation-duration: 110s;
+  animation-delay: -40s;
+  transform-origin: -10vw 20vh;
+  box-shadow: 4vmin 0 0.78vmin currentColor;
+}
+.background span:nth-child(14) {
+  color: #cd62fe;
+  top: 75%;
+  left: 25%;
+  animation-duration: 88s;
+  animation-delay: -130s;
+  transform-origin: -12vw 14vh;
+  box-shadow: -4vmin 0 0.56vmin currentColor;
+}
+.background span:nth-child(15) {
+  color: #6a82fb;
+  top: 33%;
+  left: 55%;
+  animation-duration: 133s;
+  animation-delay: -112s;
+  transform-origin: 6vw 18vh;
+  box-shadow: -4vmin 0 0.66vmin currentColor;
+}
+.background span:nth-child(16) {
+  color: #fc5c7d;
+  top: 20%;
+  left: 40%;
+  animation-duration: 159s;
+  animation-delay: -93s;
+  transform-origin: -8vw 22vh;
+  box-shadow: 4vmin 0 0.88vmin currentColor;
+}
+
+
+
 // Body css
 
 html, body {
@@ -166,6 +205,12 @@ html, body {
   font-size: 40px;
   padding: 10px 0;
   margin: 20px 0;
+  text-decoration: underline;
+}
+
+.section-header {
+  font-family: 'Mada', sans-serif;
+  font-size: 28px;
 }
 
 
@@ -180,7 +225,7 @@ html, body {
 }
 
 .nav img {
-  width: 30px;
+  width: 35px;
   padding-left: 20px;
 }
 
@@ -199,7 +244,7 @@ html, body {
 letter-spacing: 0.5px;
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 26px;
   padding: 0 40px;
 
   cursor: pointer;
@@ -212,7 +257,7 @@ letter-spacing: 0.5px;
   content: "";
   position: absolute;
   background-color: #000000;
-  height: 4px;
+  height: 5px;
   width: 0;
   left: 50%;
   bottom: -5px;
@@ -230,26 +275,44 @@ letter-spacing: 0.5px;
 
 }
 
-.nav-links a:hover {
-    text-decoration: line-through;
-  text-decoration-thickness:18px;
-  text-decoration-color: #cd62fe5b;
-}
-
 
 
 // Landing Page CSS
 
 #landingPage {
-
-  margin-top: 85px;
+  margin-top: 120px;
  display: flex;
- justify-content: space-evenly;
+ justify-content: center;
  
 }
 
+#landingPage h2{
+  font-family: "Mada", sans-serif;
+  font-size: 60px;
+  letter-spacing: 1px;
+  text-shadow: 3px -1px rgba(0, 0, 0, 0.3);
+  margin: 0 15px 15px 15px;
+color: #000000;
+}
+
+#landingPage h3{
+  font-family: "Mada", sans-serif;
+  font-size: 45px;
+  letter-spacing: 1px;
+margin: 15px;
+}
+
+#landingPage p{
+  font-size: 22px;
+  font-style: italic;
+  margin: 40px 15px 15px 15px;
+}
+
+
+
 #landingPage img {
   width: 380px;
+  margin-right: 100px;
   border: solid 5px black;
   box-shadow: -15px 2px rgba(0, 0, 0, 1);
   border-radius: 50%;
@@ -261,18 +324,67 @@ letter-spacing: 0.5px;
   transform: scale(1.02);
 }
 
+.landingPage-highlight {
+  text-decoration: line-through;
+  text-decoration-thickness:18px;
+  text-decoration-color: #cd62fe5b;
+}
+
 
 
 .landingPage-text {
-  display: flex;
+  font-size: 20px;
   text-align: start;
-  padding: 40px 100px 0 0;
+  margin: 15px;
   align-items: flex-start;
   align-content: stretch;
   flex-direction: column;
   justify-content: flex-start;
+background-color: white;
+height: fit-content;
+}
+// About page CSS
+
+
+.about-me {
+  justify-content: center;
+  align-items: center;
+  margin: 20px 200px;
+  font-size: 18px;
+  background-color: white;
+
+
+
 }
 
+.about-me ul {
+  list-style-type: none;
+}
+
+
+// Skills page 
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.skills img {
+  width: 100px;
+  padding: 15px;
+  background-color: white;
+}
+
+.skills img:hover {
+  transform: scale(1.2);
+}
+
+.skills-text {
+  margin: 20px 450px;
+  background-color: white;
+}
 // Projects page CSS
 
 .projects-header {
@@ -315,6 +427,7 @@ h1 {
   justify-content: center;
   font-size: 16px;
   line-height: 1.6;
+  background-color: white;
 }
 
 
@@ -346,6 +459,7 @@ h1 {
   cursor: pointer;
 }
 
+
 // Projects footer {
 
   .projects-footer {
@@ -358,7 +472,7 @@ h1 {
   
   .projects-footer p {
     margin-right: 10px;
-    font-size: medium;
+    font-size: large;
   }
   
   .projects-footer img {
@@ -379,7 +493,7 @@ h1 {
     margin: auto ;
     padding-bottom: 10px;
     width: 550px;
-
+    background-color: white;
   }
 
   .contact-email {
@@ -436,7 +550,7 @@ h1 {
 // Footer CSS
 
 .footer {
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -445,11 +559,11 @@ padding-right: 30px;
 
 .footer p {
   margin-right: 10px;
-  font-size: medium;
+  font-size:x-large;
 }
 
 .footer img {
-  width: 25px;
+  width: 30px;
   padding: 0 5px;
 
 }
