@@ -203,8 +203,8 @@ html, body {
 .page-header {
   font-family: 'Mada', sans-serif;
   font-size: 40px;
-  padding: 10px 0;
-  margin: 20px 0;
+  padding: 20px 0 10px 0;
+  margin: 10px 0;
   text-decoration: underline;
 }
 
@@ -280,7 +280,7 @@ letter-spacing: 0.5px;
 // Landing Page CSS
 
 #landingPage {
-  margin-top: 120px;
+  margin: 120px 0 60px 0;
  display: flex;
  justify-content: center;
  
@@ -349,16 +349,27 @@ height: fit-content;
 .about-me {
   justify-content: center;
   align-items: center;
-  margin: 20px 200px;
-  font-size: 18px;
+  margin: 40px 300px 60px 300px;
+  font-size: 16px;
   background-color: white;
+}
 
+.hobbies {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 30px;
+}
 
-
+.about-me h1 {
+  font-family: "Mada", sans-serif;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  margin-top: 60px;
 }
 
 .about-me ul {
   list-style-type: none;
+ font-size: 18px;
 }
 
 
@@ -368,7 +379,7 @@ height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .skills img {
@@ -382,6 +393,7 @@ height: fit-content;
 }
 
 .skills-text {
+  font-weight: 500;
   margin: 20px 450px;
   background-color: white;
 }
@@ -550,7 +562,7 @@ h1 {
 // Footer CSS
 
 .footer {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   justify-content: end;
   align-items: center;
