@@ -1,37 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap');
 
-// Animated CSS backgrounf 
-
 @keyframes move {
   100% {
-      transform: translate3d(0, 0, 1px) rotate(360deg);
+    transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
 
 .background {
   position: absolute;
- width: 100%;
+  width: 100%;
   height: 90%;
   top: 0;
   left: 0;
   background: #ffffff;
-
   z-index: -100;
 }
 
 .background span {
   width: 2vmin;
   height: 2vmin;
-
   backface-visibility: hidden;
   position: absolute;
-  animation: move;
-  animation-duration: 24s;
-
   animation: move linear infinite;
+  animation-duration: 24s;
 }
-
 
 .background span:nth-child(0) {
   color: #cd62fe;
@@ -40,8 +33,9 @@
   animation-duration: 11s;
   animation-delay: -20s;
   transform-origin: 13vw 8vh;
-  box-shadow: -4vmin 0 0.6027435078062466vmin currentColor;
+  box-shadow: -4vmin 0 0.6027vmin currentColor;
 }
+
 .background span:nth-child(1) {
   color: #fc5c7d;
   top: 12%;
@@ -49,8 +43,9 @@
   animation-duration: 170s;
   animation-delay: -60s;
   transform-origin: 2vw 24vh;
-  box-shadow: -4vmin 0 1.3474621369639055vmin currentColor;
+  box-shadow: -4vmin 0 1.3475vmin currentColor;
 }
+
 .background span:nth-child(2) {
   color: #cd62fe;
   top: 19%;
@@ -58,8 +53,9 @@
   animation-duration: 99s;
   animation-delay: -61s;
   transform-origin: 21vw -9vh;
-  box-shadow: -4vmin 0 0.9362932190547939vmin currentColor;
+  box-shadow: -4vmin 0 0.9363vmin currentColor;
 }
+
 .background span:nth-child(3) {
   color: #cd62fe;
   top: 62%;
@@ -67,8 +63,9 @@
   animation-duration: 259s;
   animation-delay: -201s;
   transform-origin: -5vw -17vh;
-  box-shadow: -4vmin 0 1.4065322491039345vmin currentColor;
+  box-shadow: -4vmin 0 1.4065vmin currentColor;
 }
+
 .background span:nth-child(4) {
   color: #fc5c7d;
   top: 41%;
@@ -76,8 +73,9 @@
   animation-duration: 160s;
   animation-delay: -52s;
   transform-origin: -24vw -21vh;
-  box-shadow: 4vmin 0 1.3667226787533304vmin currentColor;
+  box-shadow: 4vmin 0 1.3667vmin currentColor;
 }
+
 .background span:nth-child(5) {
   color: #cd62fe;
   top: 34%;
@@ -85,8 +83,9 @@
   animation-duration: 137s;
   animation-delay: -14s;
   transform-origin: -10vw -4vh;
-  box-shadow: 4vmin 0 1.4533556520767141vmin currentColor;
+  box-shadow: 4vmin 0 1.4534vmin currentColor;
 }
+
 .background span:nth-child(6) {
   color: #fc5c7d;
   top: 70%;
@@ -94,8 +93,9 @@
   animation-duration: 246s;
   animation-delay: -79s;
   transform-origin: 3vw -6vh;
-  box-shadow: 4vmin 0 0.8529716202829727vmin currentColor;
+  box-shadow: 4vmin 0 0.853vmin currentColor;
 }
+
 .background span:nth-child(7) {
   color: #6a82fb;
   top: 41%;
@@ -103,8 +103,9 @@
   animation-duration: 60s;
   animation-delay: -224s;
   transform-origin: -19vw -12vh;
-  box-shadow: -4vmin 0 0.867022872695193vmin currentColor;
+  box-shadow: -4vmin 0 0.867vmin currentColor;
 }
+
 .background span:nth-child(8) {
   color: #fc5c7d;
   top: 54%;
@@ -112,8 +113,9 @@
   animation-duration: 42s;
   animation-delay: -109s;
   transform-origin: -15vw 8vh;
-  box-shadow: -4vmin 0 0.9352703074705782vmin currentColor;
+  box-shadow: -4vmin 0 0.9353vmin currentColor;
 }
+
 .background span:nth-child(9) {
   color: #cd62fe;
   top: 5%;
@@ -121,8 +123,9 @@
   animation-duration: 191s;
   animation-delay: -143s;
   transform-origin: -8vw -7vh;
-  box-shadow: -4vmin 0 0.9345022921867292vmin currentColor;
+  box-shadow: -4vmin 0 0.9345vmin currentColor;
 }
+
 .background span:nth-child(10) {
   color: #cd62fe;
   top: 97%;
@@ -130,8 +133,9 @@
   animation-duration: 261s;
   animation-delay: -155s;
   transform-origin: 7vw -14vh;
-  box-shadow: -4vmin 0 0.9462381484919629vmin currentColor;
+  box-shadow: -4vmin 0 0.9462vmin currentColor;
 }
+
 .background span:nth-child(11) {
   color: #cd62fe;
   top: 8%;
@@ -139,8 +143,9 @@
   animation-duration: 222s;
   animation-delay: -217s;
   transform-origin: 17vw 10vh;
-  box-shadow: -4vmin 0 0.5027060992056787vmin currentColor;
+  box-shadow: -4vmin 0 0.5027vmin currentColor;
 }
+
 .background span:nth-child(12) {
   color: #6a82fb;
   top: 92%;
@@ -148,7 +153,7 @@
   animation-duration: 171s;
   animation-delay: -62s;
   transform-origin: -7vw 5vh;
-  box-shadow: 4vmin 0 0.6780466886468124vmin currentColor;
+  box-shadow: 4vmin 0 0.678vmin currentColor;
 }
 
 .background span:nth-child(13) {
@@ -160,6 +165,7 @@
   transform-origin: -10vw 20vh;
   box-shadow: 4vmin 0 0.78vmin currentColor;
 }
+
 .background span:nth-child(14) {
   color: #cd62fe;
   top: 75%;
@@ -169,6 +175,7 @@
   transform-origin: -12vw 14vh;
   box-shadow: -4vmin 0 0.56vmin currentColor;
 }
+
 .background span:nth-child(15) {
   color: #6a82fb;
   top: 33%;
@@ -178,6 +185,7 @@
   transform-origin: 6vw 18vh;
   box-shadow: -4vmin 0 0.66vmin currentColor;
 }
+
 .background span:nth-child(16) {
   color: #fc5c7d;
   top: 20%;
@@ -188,133 +196,114 @@
   box-shadow: 4vmin 0 0.88vmin currentColor;
 }
 
-
-
-// Body css
-
 html, body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #000000;
-  
 }
 
 .page-header {
   font-family: 'Mada', sans-serif;
-  font-size: 40px;
-  padding: 20px 0 10px 0;
-  margin: 10px 0;
+  font-size: 2.5rem;
+  padding: 1.25rem 0 0.625rem 0;
+  margin: 0.625rem 0;
   text-decoration: underline;
 }
 
 .section-header {
   font-family: 'Mada', sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
-
-
-// Nav bar CSS
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
-  
+  padding: 0.9375rem;
 }
 
 .nav img {
-  width: 35px;
-  padding-left: 20px;
+  width: 2.1875rem;
+  padding-left: 1.25rem;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
   justify-content: end;
-  
 }
 
 .nav img:hover {
   cursor: pointer;
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
+
 .nav a {
-letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
   text-decoration: none;
   color: black;
-  font-size: 26px;
-  padding: 0 40px;
-
+  font-size: 1.625rem;
+  padding: 0 2.5rem;
   cursor: pointer;
   position: relative;
-  text-decoration: none;
- cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
 
- font-family: 'Montserrat', sans-serif;
- &:after {
+.nav a:after {
   content: "";
   position: absolute;
   background-color: #000000;
-  height: 5px;
+  height: 0.3125rem;
   width: 0;
   left: 50%;
-  bottom: -5px;
+  bottom: -0.3125rem;
   transition: width 0.3s ease; 
 }
-&:hover:after {
+
+.nav a:hover:after {
   width: 60%; 
   left: 20%;
 }
 
-&:not(:hover):after {
+.nav a:not(:hover):after {
   width: 0; 
   left: 20%; 
 }
 
-}
-
-
-
-// Landing Page CSS
-
 #landingPage {
-  margin: 120px 0 60px 0;
- display: flex;
- justify-content: center;
- 
+  margin: 7.5rem 0 3.75rem 0;
+  display: flex;
+  justify-content: center;
 }
 
-#landingPage h2{
+#landingPage h2 {
   font-family: "Mada", sans-serif;
-  font-size: 60px;
-  letter-spacing: 1px;
-  text-shadow: 3px -1px rgba(0, 0, 0, 0.3);
-  margin: 0 15px 15px 15px;
-color: #000000;
+  font-size: 3.75rem;
+  letter-spacing: 0.0625rem;
+  text-shadow: 0.1875rem -0.0625rem rgba(0, 0, 0, 0.3);
+  margin: 0 0.9375rem 0.9375rem 0.9375rem;
+  color: #000000;
 }
 
-#landingPage h3{
+#landingPage h3 {
   font-family: "Mada", sans-serif;
-  font-size: 45px;
-  letter-spacing: 1px;
-margin: 15px;
+  font-size: 2.8125rem;
+  letter-spacing: 0.0625rem;
+  margin: 0.9375rem;
 }
 
-#landingPage p{
-  font-size: 22px;
+#landingPage p {
+  font-size: 1.375rem;
   font-style: italic;
-  margin: 40px 15px 15px 15px;
+  margin: 2.5rem 0.9375rem 0.9375rem 0.9375rem;
 }
-
-
 
 #landingPage img {
-  width: 380px;
-  margin-right: 100px;
-  border: solid 5px black;
-  box-shadow: -15px 2px rgba(0, 0, 0, 1);
+  width: 23.75rem;
+  margin-right: 6.25rem;
+  border: solid 0.3125rem black;
+  box-shadow: -0.9375rem 0.125rem rgba(0, 0, 0, 1);
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
@@ -326,65 +315,58 @@ margin: 15px;
 
 .landingPage-highlight {
   text-decoration: line-through;
-  text-decoration-thickness:18px;
+  text-decoration-thickness: 1.125rem;
   text-decoration-color: #cd62fe5b;
 }
 
-
-
 .landingPage-text {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: start;
-  margin: 15px;
+  margin: 0.9375rem;
   align-items: flex-start;
   align-content: stretch;
   flex-direction: column;
   justify-content: flex-start;
-background-color: white;
-height: fit-content;
+  background-color: white;
+  height: fit-content;
 }
-// About page CSS
-
 
 .about-me {
   justify-content: center;
   align-items: center;
-  margin: 40px 300px 60px 300px;
-  font-size: 16px;
+  margin: 2.5rem 18.75rem 3.75rem 18.75rem;
+  font-size: 1rem;
   background-color: white;
 }
 
 .hobbies {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: italic;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .about-me h1 {
   font-family: "Mada", sans-serif;
-  font-size: 32px;
-  letter-spacing: 1.5px;
-  margin-top: 60px;
+  font-size: 2rem;
+  letter-spacing: 0.09375rem;
+  margin-top: 3.75rem;
 }
 
 .about-me ul {
   list-style-type: none;
- font-size: 18px;
+  font-size: 1.125rem;
 }
-
-
-// Skills page 
 
 .skills {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .skills img {
-  width: 100px;
-  padding: 15px;
+  width: 6.25rem;
+  padding: 0.9375rem;
   background-color: white;
 }
 
@@ -394,10 +376,9 @@ height: fit-content;
 
 .skills-text {
   font-weight: 500;
-  margin: 20px 450px;
+  margin: 1.25rem 28.125rem;
   background-color: white;
 }
-// Projects page CSS
 
 .projects-header {
   display: flex;
@@ -406,12 +387,12 @@ height: fit-content;
 }
 
 .projects-header h1 {
- padding-right: 15px;
+  padding-right: 0.9375rem;
 }
 
 .projects-header img {
-  height: 25px;
-  padding-left: 10px;
+  height: 1.5625rem;
+  padding-left: 0.625rem;
 }
 
 .projects-header img:hover {
@@ -420,9 +401,9 @@ height: fit-content;
 }
 
 #icon {
-  margin-top: 10px;
-  width: 45px;
-  padding:5px;
+  margin-top: 0.625rem;
+  width: 2.8125rem;
+  padding: 0.3125rem;
 }
 
 #icon:hover {
@@ -430,227 +411,212 @@ height: fit-content;
 }
 
 h1 {
-  font-size: x-large;
+  font-size: 1.25rem;
 }
 
 .projects-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
   background-color: white;
 }
 
-
 #left-section {
-  height: 480px;
+  height: 30rem;
   display: flex;
-  padding: 0 120px 0 120px;
+  padding: 0 7.5rem 0 7.5rem;
   flex-direction: row;
   align-items: center;
 }
 
 #right-section {
-  height: 480px;
+  height: 30rem;
   display: flex;
-  padding: 0 120px 0 120px;
+  padding: 0 7.5rem 0 7.5rem;
   flex-direction: row-reverse;
   align-items: center;
 }
 
 .mockup {
-  padding-right: 50px;
-  height: 260px;
+  padding-right: 3.125rem;
+  height: 16.25rem;
   transition: transform 0.3s ease-in-out;
 }
-
 
 .mockup:hover {
   transform: scale(1.02);
   cursor: pointer;
 }
 
-
-// Projects footer {
-
-  .projects-footer {
-    margin-top: 40px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  padding-right: 30px;
-  }
-  
-  .projects-footer p {
-    margin-right: 10px;
-    font-size: large;
-  }
-  
-  .projects-footer img {
-    width: 25px;
-    padding: 0 5px;
-  
-  }
-  
-  .projects-footer img:hover {
-    cursor: pointer;
-    transform: scale(1.1)
-  }
-
-  // Contact page CSS
-
-  .contact p {
-    text-align: center;
-    margin: auto ;
-    padding-bottom: 10px;
-    width: 550px;
-    background-color: white;
-  }
-
-  .contact-email {
-    color: #000000;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .contact-email:hover {
-    color:white;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 22px;
-   width: 650px;
-   padding-top: 30px;
-   margin: 0 auto;
-  }
-  
-  .contact-form input, .contact-form textarea {
-  border: 2px solid #000000;
-  padding: 15px;
-  margin-bottom: 10px;
-  color:black;
-  font-family: "DM Sans", sans-serif;
-  font-size: 15px;
-  box-shadow: 5px 5px rgba(0, 0, 0, 1);
-  }
-
-  .contact-form textarea {
-    height: 150px;
-  }
-  
-  .contact-form button {
-    border: 2px solid #000000;
-    padding: 15px;
-    background-color: #ffffff;
-    color: black;
-    font-family: "DM Sans", sans-serif;
-    font-size: 16px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 1);
-  }
-  
-  .contact-form button:hover {
-    background: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
-    color: black;
-    cursor: pointer;
-  }
-
-
-// Footer CSS
-
-.footer {
-  margin-top: 30px;
+.projects-footer {
+  margin-top: 2.5rem;
   display: flex;
   justify-content: end;
   align-items: center;
-padding-right: 30px;
+  padding-right: 1.875rem;
+}
+
+.projects-footer p {
+  margin-right: 0.625rem;
+  font-size: 1.25rem;
+}
+
+.projects-footer img {
+  width: 1.5625rem;
+  padding: 0 0.3125rem;
+}
+
+.projects-footer img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.contact p {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 0.625rem;
+  width: 34.375rem;
+  background-color: white;
+}
+
+.contact-email {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.contact-email:hover {
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.375rem;
+  width: 40.625rem;
+  padding-top: 1.875rem;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 0.125rem solid #000000;
+  padding: 0.9375rem;
+  margin-bottom: 0.625rem;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9375rem;
+  box-shadow: 0.3125rem 0.3125rem rgba(0, 0, 0, 1);
+}
+
+.contact-form textarea {
+  height: 9.375rem;
+}
+
+.contact-form button {
+  border: 0.125rem solid #000000;
+  padding: 0.9375rem;
+  background-color: #ffffff;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  box-shadow: 0.3125rem 0.3125rem rgba(0, 0, 0, 1);
+}
+
+.contact-form button:hover {
+  background: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
+  color: black;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 1.875rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 1.875rem;
 }
 
 .footer p {
-  margin-right: 10px;
-  font-size:x-large;
+  margin-right: 0.625rem;
+  font-size: 1.25rem;
 }
 
 .footer img {
-  width: 30px;
-  padding: 0 5px;
-
+  width: 1.875rem;
+  padding: 0 0.3125rem;
 }
 
 .footer img:hover {
   cursor: pointer;
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
+@media only screen and (max-width: 1200px) {
+  .footer {
+    font-size: 0.9375rem;
+  }
 
-      // Responsive CSS
-      // Media Queries
+  a {
+    font-size: 0.9375rem;
+    padding: 0 2.8125rem;
+  }
+}
 
-      @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 992px) {
+  .footer {
+    font-size: 0.9375rem;
+  }
 
-        .footer {
-          font-size: 15px;
-        }
+  a {
+    font-size: 0.9375rem;
+    padding: 0 2.8125rem;
+  }
+}
 
-        a {
-          font-size: 15px;
-          padding: 0 45px;
-        }
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 0.8125rem;
+  }
 
-        
-      }
-    
-    @media only screen and (max-width: 992px) {
-        .footer {
-          font-size: 15px;
-        }
+  a {
+    display: none;
+  }
 
-        a {
-          font-size: 15px;
-          padding: 0 45px;
-        }
-    }
-    
-    @media only screen and (max-width: 768px) {
-        .footer {
-          font-size: 13px;
-        }
+  .bm-burger-button {
+    display: block;
+  }
+}
 
-        
-        a {
-          display: none;
-        }
+@media only screen and (max-width: 576px) {
+  .footer {
+    font-size: 0.6875rem;
+  }
 
-        .bm-burger-button {
-          display: block;
-        }
-    }
-    
-    @media only screen and (max-width: 576px) {
-       .footer {
-         font-size: 11px;
-       }
-       a {
-        display: none;
-      }
-      .bm-burger-button {
-        display: block;
-      }
-    }
-    
-    @media only screen and (max-width: 480px) {
-      .footer {
-        font-size: 9px;
-      }
-      a {
-        display: none;
-      }
+  a {
+    display: none;
+  }
 
-      .bm-burger-button {
-        display: block;
-      }
-    }
+  .bm-burger-button {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    font-size: 0.5625rem;
+  }
+
+  a {
+    display: none;
+  }
+
+  .bm-burger-button {
+    display: block;
+  }
+}
+
   
