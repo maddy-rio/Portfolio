@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap');
 
+// Animated CSS background
+
 @keyframes move {
   100% {
-    transform: translate3d(0, 0, 1px) rotate(360deg);
+      transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
 
 .background {
   position: absolute;
   width: 100%;
-  height: 90%;
+  height: 81%;
   top: 0;
   left: 0;
   background: #ffffff;
@@ -22,179 +24,166 @@
   height: 2vmin;
   backface-visibility: hidden;
   position: absolute;
+  animation: move;
+  animation-duration: 21.6s;
   animation: move linear infinite;
-  animation-duration: 24s;
 }
 
 .background span:nth-child(0) {
   color: #cd62fe;
-  top: 42%;
-  left: 50%;
-  animation-duration: 11s;
-  animation-delay: -20s;
-  transform-origin: 13vw 8vh;
-  box-shadow: -4vmin 0 0.6027vmin currentColor;
+  top: 37.8%;
+  left: 45%;
+  animation-duration: 9.9s;
+  animation-delay: -18s;
+  transform-origin: 11.7vw 7.2vh;
+  box-shadow: -3.6vmin 0 0.542469157025621vmin currentColor;
 }
-
 .background span:nth-child(1) {
   color: #fc5c7d;
-  top: 12%;
-  left: 82%;
-  animation-duration: 170s;
-  animation-delay: -60s;
-  transform-origin: 2vw 24vh;
-  box-shadow: -4vmin 0 1.3475vmin currentColor;
+  top: 10.8%;
+  left: 73.8%;
+  animation-duration: 153s;
+  animation-delay: -54s;
+  transform-origin: 1.8vw 21.6vh;
+  box-shadow: -3.6vmin 0 1.2127159232675147vmin currentColor;
 }
-
 .background span:nth-child(2) {
   color: #cd62fe;
-  top: 19%;
-  left: 43%;
-  animation-duration: 99s;
-  animation-delay: -61s;
-  transform-origin: 21vw -9vh;
-  box-shadow: -4vmin 0 0.9363vmin currentColor;
+  top: 17.1%;
+  left: 38.7%;
+  animation-duration: 89.1s;
+  animation-delay: -54.9s;
+  transform-origin: 18.9vw -8.1vh;
+  box-shadow: -3.6vmin 0 0.8426638971493145vmin currentColor;
 }
-
 .background span:nth-child(3) {
   color: #cd62fe;
-  top: 62%;
-  left: 60%;
-  animation-duration: 259s;
-  animation-delay: -201s;
-  transform-origin: -5vw -17vh;
-  box-shadow: -4vmin 0 1.4065vmin currentColor;
+  top: 55.8%;
+  left: 54%;
+  animation-duration: 233.1s;
+  animation-delay: -180.9s;
+  transform-origin: -4.5vw -15.3vh;
+  box-shadow: -3.6vmin 0 1.265879024193541vmin currentColor;
 }
-
 .background span:nth-child(4) {
   color: #fc5c7d;
-  top: 41%;
-  left: 69%;
-  animation-duration: 160s;
-  animation-delay: -52s;
-  transform-origin: -24vw -21vh;
-  box-shadow: 4vmin 0 1.3667vmin currentColor;
+  top: 36.9%;
+  left: 62.1%;
+  animation-duration: 144s;
+  animation-delay: -46.8s;
+  transform-origin: -21.6vw -18.9vh;
+  box-shadow: 3.6vmin 0 1.2300504108779974vmin currentColor;
 }
-
 .background span:nth-child(5) {
   color: #cd62fe;
-  top: 34%;
-  left: 16%;
-  animation-duration: 137s;
-  animation-delay: -14s;
-  transform-origin: -10vw -4vh;
-  box-shadow: 4vmin 0 1.4534vmin currentColor;
+  top: 30.6%;
+  left: 14.4%;
+  animation-duration: 123.3s;
+  animation-delay: -12.6s;
+  transform-origin: -9vw -3.6vh;
+  box-shadow: 3.6vmin 0 1.3070200868690428vmin currentColor;
 }
-
 .background span:nth-child(6) {
   color: #fc5c7d;
-  top: 70%;
-  left: 2%;
-  animation-duration: 246s;
-  animation-delay: -79s;
-  transform-origin: 3vw -6vh;
-  box-shadow: 4vmin 0 0.853vmin currentColor;
+  top: 63%;
+  left: 1.8%;
+  animation-duration: 221.4s;
+  animation-delay: -71.1s;
+  transform-origin: 2.7vw -5.4vh;
+  box-shadow: 3.6vmin 0 0.7676744582546755vmin currentColor;
 }
-
 .background span:nth-child(7) {
   color: #6a82fb;
-  top: 41%;
-  left: 47%;
-  animation-duration: 60s;
-  animation-delay: -224s;
-  transform-origin: -19vw -12vh;
-  box-shadow: -4vmin 0 0.867vmin currentColor;
+  top: 36.9%;
+  left: 42.3%;
+  animation-duration: 54s;
+  animation-delay: -201.6s;
+  transform-origin: -17.1vw -10.8vh;
+  box-shadow: -3.6vmin 0 0.7803205854256737vmin currentColor;
 }
-
 .background span:nth-child(8) {
   color: #fc5c7d;
-  top: 54%;
-  left: 99%;
-  animation-duration: 42s;
-  animation-delay: -109s;
-  transform-origin: -15vw 8vh;
-  box-shadow: -4vmin 0 0.9353vmin currentColor;
+  top: 48.6%;
+  left: 89.1%;
+  animation-duration: 37.8s;
+  animation-delay: -98.1s;
+  transform-origin: -13.5vw 7.2vh;
+  box-shadow: -3.6vmin 0 0.8417432767235204vmin currentColor;
 }
-
 .background span:nth-child(9) {
   color: #cd62fe;
-  top: 5%;
-  left: 68%;
-  animation-duration: 191s;
-  animation-delay: -143s;
-  transform-origin: -8vw -7vh;
-  box-shadow: -4vmin 0 0.9345vmin currentColor;
+  top: 4.5%;
+  left: 61.2%;
+  animation-duration: 171.9s;
+  animation-delay: -128.7s;
+  transform-origin: -7.2vw -6.3vh;
+  box-shadow: -3.6vmin 0 0.8410520629680563vmin currentColor;
 }
-
 .background span:nth-child(10) {
   color: #cd62fe;
-  top: 97%;
-  left: 39%;
-  animation-duration: 261s;
-  animation-delay: -155s;
-  transform-origin: 7vw -14vh;
-  box-shadow: -4vmin 0 0.9462vmin currentColor;
+  top: 87.3%;
+  left: 35.1%;
+  animation-duration: 234.9s;
+  animation-delay: -139.5s;
+  transform-origin: 6.3vw -12.6vh;
+  box-shadow: -3.6vmin 0 0.8516143336427668vmin currentColor;
 }
-
 .background span:nth-child(11) {
   color: #cd62fe;
-  top: 8%;
-  left: 36%;
-  animation-duration: 222s;
-  animation-delay: -217s;
-  transform-origin: 17vw 10vh;
-  box-shadow: -4vmin 0 0.5027vmin currentColor;
+  top: 7.2%;
+  left: 32.4%;
+  animation-duration: 199.8s;
+  animation-delay: -195.3s;
+  transform-origin: 14.4vw 9vh;
+  box-shadow: -3.6vmin 0 0.4524354892851108vmin currentColor;
 }
-
 .background span:nth-child(12) {
   color: #6a82fb;
-  top: 92%;
-  left: 79%;
-  animation-duration: 171s;
-  animation-delay: -62s;
-  transform-origin: -7vw 5vh;
-  box-shadow: 4vmin 0 0.678vmin currentColor;
+  top: 82.8%;
+  left: 71.1%;
+  animation-duration: 153.9s;
+  animation-delay: -54.9s;
+  transform-origin: -6.3vw 4.5vh;
+  box-shadow: 3.6vmin 0 0.6102420197821312vmin currentColor;
 }
-
 .background span:nth-child(13) {
   color: #fc5c7d;
-  top: 25%;
-  left: 15%;
-  animation-duration: 110s;
-  animation-delay: -40s;
-  transform-origin: -10vw 20vh;
-  box-shadow: 4vmin 0 0.78vmin currentColor;
+  top: 22.5%;
+  left: 13.5%;
+  animation-duration: 99s;
+  animation-delay: -36s;
+  transform-origin: -9vw 18vh;
+  box-shadow: 3.6vmin 0 0.702vmin currentColor;
 }
-
 .background span:nth-child(14) {
   color: #cd62fe;
-  top: 75%;
-  left: 25%;
-  animation-duration: 88s;
-  animation-delay: -130s;
-  transform-origin: -12vw 14vh;
-  box-shadow: -4vmin 0 0.56vmin currentColor;
+  top: 67.5%;
+  left: 22.5%;
+  animation-duration: 79.2s;
+  animation-delay: -117s;
+  transform-origin: -10.8vw 12.6vh;
+  box-shadow: -3.6vmin 0 0.504vmin currentColor;
 }
-
 .background span:nth-child(15) {
   color: #6a82fb;
-  top: 33%;
-  left: 55%;
-  animation-duration: 133s;
-  animation-delay: -112s;
-  transform-origin: 6vw 18vh;
-  box-shadow: -4vmin 0 0.66vmin currentColor;
+  top: 29.7%;
+  left: 49.5%;
+  animation-duration: 119.7s;
+  animation-delay: -100.8s;
+  transform-origin: 5.4vw 16.2vh;
+  box-shadow: -3.6vmin 0 0.594vmin currentColor;
 }
-
 .background span:nth-child(16) {
   color: #fc5c7d;
-  top: 20%;
-  left: 40%;
-  animation-duration: 159s;
-  animation-delay: -93s;
-  transform-origin: -8vw 22vh;
-  box-shadow: 4vmin 0 0.88vmin currentColor;
+  top: 18%;
+  left: 36%;
+  animation-duration: 143.1s;
+  animation-delay: -83.7s;
+  transform-origin: -7.2vw 19.8vh;
+  box-shadow: 3.6vmin 0 0.792vmin currentColor;
 }
+
+// Body CSS
 
 html, body {
   margin: 0;
@@ -205,27 +194,29 @@ html, body {
 
 .page-header {
   font-family: 'Mada', sans-serif;
-  font-size: 2.5rem;
-  padding: 1.25rem 0 0.625rem 0;
-  margin: 0.625rem 0;
+  font-size: 36px;
+  padding: 18px 0 9px 0;
+  margin: 9px 0;
   text-decoration: underline;
 }
 
 .section-header {
   font-family: 'Mada', sans-serif;
-  font-size: 1.75rem;
+  font-size: 25.2px;
 }
+
+// Nav bar CSS
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.9375rem;
+  padding: 13.5px;
 }
 
 .nav img {
-  width: 2.1875rem;
-  padding-left: 1.25rem;
+  width: 31.5px;
+  padding-left: 18px;
 }
 
 .nav-links {
@@ -240,89 +231,90 @@ html, body {
 }
 
 .nav a {
-  letter-spacing: 0.03125rem;
+  letter-spacing: 0.45px;
   text-decoration: none;
   color: black;
-  font-size: 1.625rem;
-  padding: 0 2.5rem;
+  font-size: 23.4px;
+  padding: 0 36px;
   cursor: pointer;
   position: relative;
+  text-decoration: none;
+  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
+  &:after {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 4.5px;
+    width: 0;
+    left: 50%;
+    bottom: -4.5px;
+    transition: width 0.3s ease;
+  }
+  &:hover:after {
+    width: 54%;
+    left: 18%;
+  }
+  &:not(:hover):after {
+    width: 0;
+    left: 18%;
+  }
 }
 
-.nav a:after {
-  content: "";
-  position: absolute;
-  background-color: #000000;
-  height: 0.3125rem;
-  width: 0;
-  left: 50%;
-  bottom: -0.3125rem;
-  transition: width 0.3s ease; 
-}
-
-.nav a:hover:after {
-  width: 60%; 
-  left: 20%;
-}
-
-.nav a:not(:hover):after {
-  width: 0; 
-  left: 20%; 
-}
+// Landing Page CSS
 
 #landingPage {
-  margin: 7.5rem 0 3.75rem 0;
+  margin: 108px 0 54px 0;
   display: flex;
   justify-content: center;
 }
 
 #landingPage h2 {
   font-family: "Mada", sans-serif;
-  font-size: 3.75rem;
-  letter-spacing: 0.0625rem;
-  text-shadow: 0.1875rem -0.0625rem rgba(0, 0, 0, 0.3);
-  margin: 0 0.9375rem 0.9375rem 0.9375rem;
+  font-size: 54px;
+  letter-spacing: 0.9px;
+  text-shadow: 2.7px -0.9px rgba(0, 0, 0, 0.27);
+  margin: 0 13.5px 13.5px 13.5px;
   color: #000000;
 }
 
 #landingPage h3 {
   font-family: "Mada", sans-serif;
-  font-size: 2.8125rem;
-  letter-spacing: 0.0625rem;
-  margin: 0.9375rem;
+  font-size: 40.5px;
+  letter-spacing: 0.9px;
+  margin: 13.5px;
 }
 
 #landingPage p {
-  font-size: 1.375rem;
+  font-size: 19.8px;
   font-style: italic;
-  margin: 2.5rem 0.9375rem 0.9375rem 0.9375rem;
+  margin: 36px 13.5px 13.5px 13.5px;
 }
 
 #landingPage img {
-  width: 23.75rem;
-  margin-right: 6.25rem;
-  border: solid 0.3125rem black;
-  box-shadow: -0.9375rem 0.125rem rgba(0, 0, 0, 1);
+  width: 342px;
+  margin-right: 90px;
+  border: solid 4.5px black;
+  box-shadow: -13.5px 1.8px rgba(0, 0, 0, 1);
   border-radius: 50%;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.18s ease-in-out;
   cursor: pointer;
 }
 
 #landingPage img:hover {
-  transform: scale(1.02);
+  transform: scale(1.018);
 }
 
 .landingPage-highlight {
   text-decoration: line-through;
-  text-decoration-thickness: 1.125rem;
+  text-decoration-thickness: 16.2px;
   text-decoration-color: #cd62fe5b;
 }
 
 .landingPage-text {
-  font-size: 1.25rem;
+  font-size: 18px;
   text-align: start;
-  margin: 0.9375rem;
+  margin: 13.5px;
   align-items: flex-start;
   align-content: stretch;
   flex-direction: column;
@@ -331,54 +323,60 @@ html, body {
   height: fit-content;
 }
 
+// About page CSS
+
 .about-me {
   justify-content: center;
   align-items: center;
-  margin: 2.5rem 18.75rem 3.75rem 18.75rem;
-  font-size: 1rem;
+  margin: 36px 270px 54px 270px;
+  font-size: 14.4px;
   background-color: white;
 }
 
 .hobbies {
-  font-size: 1.25rem;
+  font-size: 18px;
   font-style: italic;
-  margin-top: 1.875rem;
+  margin-top: 27px;
 }
 
 .about-me h1 {
   font-family: "Mada", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 0.09375rem;
-  margin-top: 3.75rem;
+  font-size: 28.8px;
+  letter-spacing: 1.35px;
+  margin-top: 54px;
 }
 
 .about-me ul {
   list-style-type: none;
-  font-size: 1.125rem;
+  font-size: 16.2px;
 }
+
+// Skills page
 
 .skills {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 0.625rem;
+  padding-top: 9px;
 }
 
 .skills img {
-  width: 6.25rem;
-  padding: 0.9375rem;
+  width: 90px;
+  padding: 13.5px;
   background-color: white;
 }
 
 .skills img:hover {
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
 .skills-text {
-  font-weight: 500;
-  margin: 1.25rem 28.125rem;
+  font-weight: 450;
+  margin: 18px 405px;
   background-color: white;
 }
+
+// Projects page CSS
 
 .projects-header {
   display: flex;
@@ -387,104 +385,108 @@ html, body {
 }
 
 .projects-header h1 {
-  padding-right: 0.9375rem;
+  padding-right: 13.5px;
 }
 
 .projects-header img {
-  height: 1.5625rem;
-  padding-left: 0.625rem;
+  height: 22.5px;
+  padding-left: 9px;
 }
 
 .projects-header img:hover {
-  transform: scale(1.4);
+  transform: scale(1.26);
   cursor: pointer;
 }
 
 #icon {
-  margin-top: 0.625rem;
-  width: 2.8125rem;
-  padding: 0.3125rem;
+  margin-top: 9px;
+  width: 40.5px;
+  padding: 4.5px;
 }
 
 #icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.08);
 }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: large;
 }
 
 .projects-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 14.4px;
+  line-height: 1.44;
   background-color: white;
 }
 
 #left-section {
-  height: 30rem;
+  height: 432px;
   display: flex;
-  padding: 0 7.5rem 0 7.5rem;
+  padding: 0 108px 0 108px;
   flex-direction: row;
   align-items: center;
 }
 
 #right-section {
-  height: 30rem;
+  height: 432px;
   display: flex;
-  padding: 0 7.5rem 0 7.5rem;
+  padding: 0 108px 0 108px;
   flex-direction: row-reverse;
   align-items: center;
 }
 
 .mockup {
-  padding-right: 3.125rem;
-  height: 16.25rem;
-  transition: transform 0.3s ease-in-out;
+  padding-right: 45px;
+  height: 234px;
+  transition: transform 0.27s ease-in-out;
 }
 
 .mockup:hover {
-  transform: scale(1.02);
+  transform: scale(1.018);
   cursor: pointer;
 }
 
+// Projects footer
+
 .projects-footer {
-  margin-top: 2.5rem;
+  margin-top: 36px;
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-right: 1.875rem;
+  padding-right: 27px;
 }
 
 .projects-footer p {
-  margin-right: 0.625rem;
-  font-size: 1.25rem;
+  margin-right: 9px;
+  font-size: medium;
 }
 
 .projects-footer img {
-  width: 1.5625rem;
-  padding: 0 0.3125rem;
+  width: 22.5px;
+  padding: 0 4.5px;
 }
 
 .projects-footer img:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
+
+// Contact page CSS
 
 .contact p {
   text-align: center;
   margin: auto;
-  padding-bottom: 0.625rem;
-  width: 34.375rem;
+  padding-bottom: 9px;
+  width: 495px;
   background-color: white;
 }
 
 .contact-email {
   color: #000000;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 18px;
 }
 
 .contact-email:hover {
@@ -495,35 +497,35 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.375rem;
-  width: 40.625rem;
-  padding-top: 1.875rem;
+  font-size: 19.8px;
+  width: 585px;
+  padding-top: 27px;
   margin: 0 auto;
 }
 
 .contact-form input,
 .contact-form textarea {
-  border: 0.125rem solid #000000;
-  padding: 0.9375rem;
-  margin-bottom: 0.625rem;
+  border: 1.8px solid #000000;
+  padding: 13.5px;
+  margin-bottom: 9px;
   color: black;
   font-family: "DM Sans", sans-serif;
-  font-size: 0.9375rem;
-  box-shadow: 0.3125rem 0.3125rem rgba(0, 0, 0, 1);
+  font-size: 13.5px;
+  box-shadow: 4.5px 4.5px rgba(0, 0, 0, 1);
 }
 
 .contact-form textarea {
-  height: 9.375rem;
+  height: 135px;
 }
 
 .contact-form button {
-  border: 0.125rem solid #000000;
-  padding: 0.9375rem;
+  border: 1.8px solid #000000;
+  padding: 13.5px;
   background-color: #ffffff;
   color: black;
   font-family: "DM Sans", sans-serif;
-  font-size: 1rem;
-  box-shadow: 0.3125rem 0.3125rem rgba(0, 0, 0, 1);
+  font-size: 14.4px;
+  box-shadow: 4.5px 4.5px rgba(0, 0, 0, 1);
 }
 
 .contact-form button:hover {
@@ -532,91 +534,87 @@ h1 {
   cursor: pointer;
 }
 
+// Footer CSS
+
 .footer {
-  margin-top: 1.875rem;
+  margin-top: 27px;
   display: flex;
   justify-content: end;
   align-items: center;
-  padding-right: 1.875rem;
+  padding-right: 27px;
 }
 
 .footer p {
-  margin-right: 0.625rem;
-  font-size: 1.25rem;
+  margin-right: 9px;
+  font-size: medium;
 }
 
 .footer img {
-  width: 1.875rem;
-  padding: 0 0.3125rem;
+  width: 27px;
+  padding: 0 4.5px;
 }
 
 .footer img:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
-@media only screen and (max-width: 1200px) {
-  .footer {
-    font-size: 0.9375rem;
-  }
+// Responsive CSS
+// Media Queries
 
+@media only screen and (max-width: 1080px) {
+  .footer {
+    font-size: 13.5px;
+  }
   a {
-    font-size: 0.9375rem;
-    padding: 0 2.8125rem;
+    font-size: 13.5px;
+    padding: 0 40.5px;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 892.8px) {
   .footer {
-    font-size: 0.9375rem;
+    font-size: 13.5px;
   }
-
   a {
-    font-size: 0.9375rem;
-    padding: 0 2.8125rem;
+    font-size: 13.5px;
+    padding: 0 40.5px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 691.2px) {
   .footer {
-    font-size: 0.8125rem;
+    font-size: 12.15px;
   }
-
   a {
     display: none;
   }
-
   .bm-burger-button {
     display: block;
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 518.4px) {
   .footer {
-    font-size: 0.6875rem;
+    font-size: 10.8px;
   }
-
   a {
     display: none;
   }
-
   .bm-burger-button {
     display: block;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 432px) {
   .footer {
-    font-size: 0.5625rem;
+    font-size: 9.72px;
   }
-
   a {
     display: none;
   }
-
   .bm-burger-button {
     display: block;
   }
 }
 
-  
