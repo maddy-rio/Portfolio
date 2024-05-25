@@ -7,7 +7,7 @@ function About() {
             <Nav />
             <section>
             <div className="about-me">
-  <h2>About Me</h2>
+  <h2 className='page-header'>About Me</h2>
   <p>
     I’m a Dev Academy graduate with a passion for Front-end Development. I love problem solving and am dedicated to continuous growth so tech seemed like the perfect place for me to be. I’m a very visual person hence my love for the front-end and have a background in customer support which has moulded my ability to understand how important user experience is. 
   </p>
@@ -18,7 +18,7 @@ function About() {
     When I'm not working, I enjoy spending my time indulging in...
   </p>
   <ul>
-    <li><strong>Family time 🫂 -</strong> I love spending time with my family, especially my little nephew (Hunter 🐻) and of course Kit Kat 🐈‍⬛</li>
+    <li><strong>Family time 🫂 -</strong> I love spending time with my family, especially my little nephew (Hunter 🤍) and of course Kit Kat 🐾(our fluffy cat)</li>
     <li><strong>Fishing 🎣 -</strong> On a beautiful flat day, you'll find me out fishing for Gurny's (Gurnard) with my partner</li>
     <li><strong>Reformer 🧘🏻‍♀️ -</strong> Reformer pilates is my favourite way to get endorphins flowing in the morning!</li>
     <li><strong>Walks 🏃🏻‍♀️‍➡️ -</strong> A cruisy walk along the beachside or under the sun is my jam</li>

@@ -6,7 +6,7 @@ function Projects() {
         <>
         <section className='Projects'>
         <Nav />
-        <h1 >My projects</h1>
+        <h1 className='page-header'>My projects</h1>
        {/* PPD Website */}
     <section id="left-section">
 <img className='mockup'src="/PPD.png"></img>
@@ -16,7 +16,7 @@ function Projects() {
   <img src='link.png'></img>
   <img src='code.png'></img>
   </div>
-  <p>My first official client website, Pedersen Painting & Decorating. My partner was in need of a website and this was a brilliant project for me to develop my skills so of course I was keen to get started! I have applied a simple, yet elegant approach to the design and implementation of the website in order to present a good MVP (Minimum Viable Product) for Pedersen Painting & Decorating. The website is an ongoing project where I will further focus on improving performance and adding animations to keep users engaged. The tech stack used for this project is HTML, Vanilla CSS, JavaScript, and React. I have also outsourced EmailJS to handle contact form enquiries. </p>
+  <p>My first official client website, Pedersen Painting & Decorating. My partner was in need of a website and this was a brilliant project for me to develop my skills so of course I was keen to get started! I have applied a simple, yet elegant approach to the design and implementation of the website in order to present a good MVP (Minimum Viable Product) for Pedersen Painting & Decorating. The website is an ongoing project where I will further focus on making the website mobile friendly, improving performance, accessibility, connecting a personal domain, and adding animations to keep users engaged. The tech stack used for this project is HTML, Vanilla CSS, JavaScript, and React. I have also outsourced EmailJS to handle contact form enquiries. </p>
  <div >
   <img id='icon' src='html.png'></img>
            <img id='icon' src='css.png'></img>
@@ -36,7 +36,7 @@ function Projects() {
   <img src='link.png'></img>
   <img src='code.png'></img>
   </div>
-      <p>The 75 Day Challenge is inspired by the popular and viral 75 Soft challenge that encourages people to stick to healthy habits for 75 days straight to improve their lifestyle. As someone who was interested in completing the challenge, I found a problem… no where to track my progress digitally and seamlessly. So the 75 Day Challenge web application was born! This is an ongoing project that is currently at the MVP, with a few more features in the pipeline. The tech stack used is HTML, Vanilla CSS, TypeScript, and React. I have also optimised images for better performance and incorporated 0 Auth for a personal user experience. </p>
+      <p>The 75 Day Challenge is inspired by the popular and viral 75 Soft challenge that encourages people to stick to healthy habits for 75 days straight to improve their lifestyle. As someone who was interested in completing the challenge, I found a problem… no where to track my progress digitally and seamlessly. So the 75 Day Challenge web application was born! This is an ongoing project that is currently at the MVP, with a few more features in the pipeline (including mobile friendly design). The tech stack used is HTML, Vanilla CSS, TypeScript, and React. I have also optimised images for better performance and incorporated 0 Auth for a personal user experience. </p>
 <div>
         <img id='icon' src='html.png'></img>
            <img id='icon' src='css.png'></img>

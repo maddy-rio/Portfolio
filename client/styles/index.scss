@@ -1,6 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap');
 
+// Animated CSS backgrounf 
+
+@keyframes move {
+  100% {
+      transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.background {
+  position: absolute;
+ width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+
+  z-index: -100;
+}
+
+.background span {
+  width: 2vmin;
+  height: 2vmin;
+
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 24s;
+
+  animation: move linear infinite;
+}
+
+
+.background span:nth-child(0) {
+  color: #cd62fe;
+  top: 42%;
+  left: 50%;
+  animation-duration: 11s;
+  animation-delay: -20s;
+  transform-origin: 13vw 8vh;
+  box-shadow: -4vmin 0 0.6027435078062466vmin currentColor;
+}
+.background span:nth-child(1) {
+  color: #fc5c7d;
+  top: 12%;
+  left: 82%;
+  animation-duration: 170s;
+  animation-delay: -60s;
+  transform-origin: 2vw 24vh;
+  box-shadow: -4vmin 0 1.3474621369639055vmin currentColor;
+}
+.background span:nth-child(2) {
+  color: #cd62fe;
+  top: 19%;
+  left: 43%;
+  animation-duration: 99s;
+  animation-delay: -61s;
+  transform-origin: 21vw -9vh;
+  box-shadow: -4vmin 0 0.9362932190547939vmin currentColor;
+}
+.background span:nth-child(3) {
+  color: #cd62fe;
+  top: 62%;
+  left: 60%;
+  animation-duration: 259s;
+  animation-delay: -201s;
+  transform-origin: -5vw -17vh;
+  box-shadow: -4vmin 0 1.4065322491039345vmin currentColor;
+}
+.background span:nth-child(4) {
+  color: #fc5c7d;
+  top: 41%;
+  left: 69%;
+  animation-duration: 160s;
+  animation-delay: -52s;
+  transform-origin: -24vw -21vh;
+  box-shadow: 4vmin 0 1.3667226787533304vmin currentColor;
+}
+.background span:nth-child(5) {
+  color: #cd62fe;
+  top: 34%;
+  left: 16%;
+  animation-duration: 137s;
+  animation-delay: -14s;
+  transform-origin: -10vw -4vh;
+  box-shadow: 4vmin 0 1.4533556520767141vmin currentColor;
+}
+.background span:nth-child(6) {
+  color: #fc5c7d;
+  top: 70%;
+  left: 2%;
+  animation-duration: 246s;
+  animation-delay: -79s;
+  transform-origin: 3vw -6vh;
+  box-shadow: 4vmin 0 0.8529716202829727vmin currentColor;
+}
+.background span:nth-child(7) {
+  color: #6a82fb;
+  top: 41%;
+  left: 47%;
+  animation-duration: 60s;
+  animation-delay: -224s;
+  transform-origin: -19vw -12vh;
+  box-shadow: -4vmin 0 0.867022872695193vmin currentColor;
+}
+.background span:nth-child(8) {
+  color: #fc5c7d;
+  top: 54%;
+  left: 99%;
+  animation-duration: 42s;
+  animation-delay: -109s;
+  transform-origin: -15vw 8vh;
+  box-shadow: -4vmin 0 0.9352703074705782vmin currentColor;
+}
+.background span:nth-child(9) {
+  color: #cd62fe;
+  top: 5%;
+  left: 68%;
+  animation-duration: 191s;
+  animation-delay: -143s;
+  transform-origin: -8vw -7vh;
+  box-shadow: -4vmin 0 0.9345022921867292vmin currentColor;
+}
+.background span:nth-child(10) {
+  color: #cd62fe;
+  top: 97%;
+  left: 39%;
+  animation-duration: 261s;
+  animation-delay: -155s;
+  transform-origin: 7vw -14vh;
+  box-shadow: -4vmin 0 0.9462381484919629vmin currentColor;
+}
+.background span:nth-child(11) {
+  color: #cd62fe;
+  top: 8%;
+  left: 36%;
+  animation-duration: 222s;
+  animation-delay: -217s;
+  transform-origin: 17vw 10vh;
+  box-shadow: -4vmin 0 0.5027060992056787vmin currentColor;
+}
+.background span:nth-child(12) {
+  color: #6a82fb;
+  top: 92%;
+  left: 79%;
+  animation-duration: 171s;
+  animation-delay: -62s;
+  transform-origin: -7vw 5vh;
+  box-shadow: 4vmin 0 0.6780466886468124vmin currentColor;
+}
+
+// Body css
 
 html, body {
   margin: 0;
@@ -8,6 +159,13 @@ html, body {
   text-align: center;
   color: #000000;
   
+}
+
+.page-header {
+  font-family: 'Mada', sans-serif;
+  font-size: 40px;
+  padding: 10px 0;
+  margin: 20px 0;
 }
 
 
@@ -18,6 +176,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+  
 }
 
 .nav img {
@@ -29,6 +188,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: end;
+  
 }
 
 .nav img:hover {
@@ -51,7 +211,7 @@ letter-spacing: 0.5px;
  &:after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: #000000;
   height: 4px;
   width: 0;
   left: 50%;
@@ -67,6 +227,13 @@ letter-spacing: 0.5px;
   width: 0; 
   left: 20%; 
 }
+
+}
+
+.nav-links a:hover {
+    text-decoration: line-through;
+  text-decoration-thickness:18px;
+  text-decoration-color: #cd62fe5b;
 }
 
 
@@ -124,7 +291,7 @@ letter-spacing: 0.5px;
 }
 
 .projects-header img:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
   cursor: pointer;
 }
 
@@ -204,6 +371,67 @@ h1 {
     cursor: pointer;
     transform: scale(1.1)
   }
+
+  // Contact page CSS
+
+  .contact p {
+    text-align: center;
+    margin: auto ;
+    padding-bottom: 10px;
+    width: 550px;
+
+  }
+
+  .contact-email {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .contact-email:hover {
+    color:white;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+   width: 650px;
+   padding-top: 30px;
+   margin: 0 auto;
+  }
+  
+  .contact-form input, .contact-form textarea {
+  border: 2px solid #000000;
+  padding: 15px;
+  margin-bottom: 10px;
+  color:black;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 1);
+  }
+
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    border: 2px solid #000000;
+    padding: 15px;
+    background-color: #ffffff;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 1);
+  }
+  
+  .contact-form button:hover {
+    background: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
+    color: black;
+    cursor: pointer;
+  }
+
 
 // Footer CSS
 
