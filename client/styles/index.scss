@@ -357,10 +357,12 @@ width: 560px;
 padding: 20px;
 margin: auto;
 box-shadow: 8px 8px rgba(0, 0, 0, 1);
+transition: 250ms ease-in-out;
 }
 
 #textList:hover {
-  transform: scale(1.02);
+box-shadow: none;
+
 }
 
 // Skills page
@@ -540,12 +542,14 @@ h1 {
   font-family: "DM Sans", sans-serif;
   font-size: 14.4px;
   box-shadow: 4.5px 4.5px rgba(0, 0, 0, 1);
+  transition: 250ms ease-in-out;
 }
 
 .contact-form button:hover {
   background: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
   color: black;
   cursor: pointer;
+  box-shadow: none;
 }
 
 // Footer CSS
