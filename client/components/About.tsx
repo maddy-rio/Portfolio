@@ -19,7 +19,7 @@ function About() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % listItems.length);
-    }, 6000);
+    }, 7000);
 
     return () => clearInterval(intervalId);
   }, [listItems]);

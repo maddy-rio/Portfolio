@@ -328,27 +328,39 @@ html, body {
 .about-me {
   justify-content: center;
   align-items: center;
-  margin: 36px 270px 54px 270px;
-  font-size: 14.4px;
+  margin: 36px 350px 54px 350px;
+  font-size: 14px;
   background-color: white;
 }
 
 .hobbies {
-  font-size: 18px;
+  font-size: 17px;
   font-style: italic;
-  margin-top: 27px;
+  margin: 27px;
 }
 
 .about-me h1 {
   font-family: "Mada", sans-serif;
-  font-size: 28.8px;
+  font-size: 30px;
   letter-spacing: 1.35px;
-  margin-top: 54px;
+
 }
 
 .about-me ul {
   list-style-type: none;
   font-size: 16.2px;
+}
+
+#textList {
+border: 1px solid black;
+width: 580px;
+padding: 20px;
+margin: auto;
+box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+#textList:hover {
+  transform: scale(1.02);
 }
 
 // Skills page
