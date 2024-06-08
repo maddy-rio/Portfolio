@@ -581,58 +581,168 @@ h1 {
 // Media Queries
 
 @media only screen and (max-width: 1080px) {
-  .footer {
-    font-size: 13.5px;
+  #landingPage {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
   }
-  a {
-    font-size: 13.5px;
-    padding: 0 40.5px;
+
+  .nav a {
+    font-size: large;
+  }
+
+  .nav img {
+    width: 32px;
+  }
+
+ 
+
+  #landingPage h2 {
+    font-size: 48px;
+  }
+
+  #landingPage h3 {
+    font-size: 36px;
+  }
+
+  #landingPage p {
+    font-size: 18px;
+  }
+
+  #landingPage img {
+    width: 300px;
+    margin: 30px 0; 
+    margin-bottom: 25px;
+  }
+
+  .landingPage-text {
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 892.8px) {
-  .footer {
-    font-size: 13.5px;
+  .nav a {
+    font-size: medium;
   }
-  a {
-    font-size: 13.5px;
-    padding: 0 40.5px;
+
+  .nav img {
+    width: 28px;
+  }
+
+  #landingPage h2 {
+    font-size: 42px;
+  }
+
+  #landingPage h3 {
+    font-size: 32px;
+  }
+
+  #landingPage p {
+    font-size: 17px;
+  }
+
+  #landingPage img {
+    width: 260px;
+    margin-bottom: 30px; 
+  }
+
+  .landingPage-text {
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 691.2px) {
-  .footer {
-    font-size: 12.15px;
+  .nav a {
+    font-size: small;
   }
-  a {
-    display: none;
+
+  .nav img {
+    width: 25px;
   }
-  .bm-burger-button {
-    display: block;
+
+  #landingPage h2 {
+    font-size: 36px;
+  }
+
+  #landingPage h3 {
+    font-size: 28px;
+  }
+
+  #landingPage p {
+    font-size: 16px;
+  }
+
+  #landingPage img {
+    width: 220px;
+    margin-bottom: 35px; 
+  }
+
+  .landingPage-text {
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 518.4px) {
-  .footer {
-    font-size: 10.8px;
+
+  .nav a {
+    font-size: small;
   }
-  a {
-    display: none;
+
+  .nav img {
+    width: 25px;
   }
-  .bm-burger-button {
-    display: block;
+
+  #landingPage h2 {
+    font-size: 30px;
+  }
+
+  #landingPage h3 {
+    font-size: 24px;
+  }
+
+  #landingPage p {
+    font-size: 15px;
+  }
+
+  #landingPage img {
+    width: 180px;
+    margin-bottom: 40px; 
+  }
+
+  .landingPage-text {
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 432px) {
-  .footer {
-    font-size: 9.72px;
+
+  .nav a {
+    font-size: small;
   }
-  a {
-    display: none;
+
+  .nav img {
+    width: 25px;
   }
-  .bm-burger-button {
-    display: block;
+
+  #landingPage h2 {
+    font-size: 24px;
+  }
+
+  #landingPage h3 {
+    font-size: 20px;
+  }
+
+  #landingPage p {
+    font-size: 14px;
+  }
+
+  #landingPage img {
+    width: 140px;
+    margin-bottom: 45px; 
+  }
+
+  .landingPage-text {
+    text-align: center;
   }
 }
-
