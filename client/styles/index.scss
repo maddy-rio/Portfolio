@@ -581,6 +581,13 @@ h1 {
 // Media Queries
 
 @media only screen and (max-width: 1080px) {
+
+  .page-header {
+    font-size: 32px;
+    padding: 16px 0 8px 0;
+    margin: 8px 0;
+  }
+  
   #landingPage {
     flex-direction: column;
     align-items: center;
@@ -590,13 +597,19 @@ h1 {
 
   .nav a {
     font-size: large;
+    &:hover:after {
+      width: 65%;
+      left: 18%;
+    }
+    &:not(:hover):after {
+      width: 0;
+      left: 18%;
+    }
   }
 
   .nav img {
     width: 32px;
   }
-
- 
 
   #landingPage h2 {
     font-size: 48px;
@@ -619,11 +632,137 @@ h1 {
   .landingPage-text {
     text-align: center;
   }
+
+  /* About Page Styles */
+  .about-me {
+    margin: 36px 100px 54px 100px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .hobbies {
+    font-size: 16px;
+  }
+
+  .about-me h1 {
+    font-size: 25px;
+  }
+
+  .about-me ul {
+    font-size: 14px;
+  }
+
+  #textList {
+    width: 90%;
+  }
+
+  /* Skills Page Styles */
+
+
+  .skills img {
+    width: 70px;
+    padding: 10px;
+  }
+
+  .skills-text {
+    margin: 18px 250px;
+    text-align: center;
+  }
+
+
+  /* Projects Page Styles */
+
+  .projects-header h1 {
+    font-size: medium;
+  }
+
+  .projects-header img {
+    height: 18px;
+  }
+
+  #icon {
+    width: 36px;
+    padding: 4px;
+  }
+
+  h1 {
+    font-size: medium;
+  }
+
+  .projects-text {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  #left-section,
+  #right-section {
+    height: 320px;
+    padding: 0 54px;
+  }
+
+  .mockup {
+    padding-right: 27px;
+    height: 198px;
+  }
+
+
+
+
+
+  /* Contact Page Styles */
+
+  .contact p {
+    width: 90%;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 13px;
+  }
+
+
+
+
+  /* Footer Styles */
+  .footer {
+    justify-content: end;
+    padding: 20px;
+  }
+
+  .footer p {
+    margin-right: 6px;
+    font-size: small;
+  }
+
+  .footer img {
+    width: 24px;
+    padding: 0 4px;
+  }
 }
 
+
+
 @media only screen and (max-width: 892.8px) {
+  .page-header {
+    font-size: 28px;
+    padding: 14px 0 7px 0;
+    margin: 7px 0;
+  }
+
   .nav a {
     font-size: medium;
+    &:hover:after {
+      width: 60%;
+      left: 20%;
+    }
+    &:not(:hover):after {
+      width: 0;
+      left: 20%;
+    }
   }
 
   .nav img {
@@ -650,11 +789,123 @@ h1 {
   .landingPage-text {
     text-align: center;
   }
+
+  /* About Page Styles */
+  .about-me {
+    margin: 36px 80px 54px 80px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .hobbies {
+    font-size: 15px;
+  }
+
+  .about-me h1 {
+    font-size: 23px;
+  }
+
+  .about-me ul {
+    font-size: 13px;
+  }
+
+  #textList {
+    width: 85%;
+  }
+
+  /* Skills Page Styles */
+
+  .skills img {
+    width: 60px;
+  }
+
+  .skills-text {
+    margin: 18px 200px;
+    font-size: 13px;
+  }
+
+    /* Projects Page Styles */
+
+    .projects-header h1 {
+      font-size: small;
+    }
+  
+    #icon {
+      width: 32px;
+      padding: 3px;
+    }
+  
+    h1 {
+      font-size: small;
+    }
+  
+    .projects-text {
+      font-size: 10px;
+      line-height: 1.1;
+    }
+  
+    #left-section,
+    #right-section {
+      padding: 0 45px;
+    }
+  
+    .mockup {
+      padding-right: 22.5px;
+      height: 162px;
+    }
+
+
+
+
+
+  /* Contact Page Styles */
+
+  .contact p {
+    width: 85%;
+  }
+
+  .contact-form {
+    width: 85%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 12px;
+  }
+
+
+  /* Footer Styles */
+
+  .footer p {
+    margin-right: 5px;
+    font-size: x-small;
+  }
+
+  .footer img {
+    width: 21px;
+    padding: 0 3px;
+  }
+
 }
 
 @media only screen and (max-width: 691.2px) {
+
+  .page-header {
+    font-size: 24px;
+    padding: 12px 0 6px 0;
+    margin: 6px 0;
+  }
+
   .nav a {
     font-size: small;
+    &:hover:after {
+      width: 55%;
+      left: 22%;
+    }
+    &:not(:hover):after {
+      width: 0;
+      left: 22%;
+    }
   }
 
   .nav img {
@@ -681,12 +932,123 @@ h1 {
   .landingPage-text {
     text-align: center;
   }
+
+  /* About Page Styles */
+  .about-me {
+    margin: 36px 60px 54px 60px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .hobbies {
+    font-size: 14px;
+  }
+
+  .about-me h1 {
+    font-size: 20px;
+  }
+
+  .about-me ul {
+    font-size: 12px;
+  }
+
+  #textList {
+    width: 80%;
+  }
+
+  /* Skills Page Styles */
+
+  .skills img {
+    width: 50px;
+  }
+
+  .skills-text {
+    margin: 18px 150px;
+    font-size: 12px;
+  }
+
+    /* Projects Page Styles */
+
+  
+  .projects-header h1 {
+    font-size: x-small;
+  }
+
+  #icon {
+    width: 28px;
+    padding: 2px;
+  }
+
+  h1 {
+    font-size: x-small;
+  }
+
+  .projects-text {
+    font-size: 9px;
+    line-height: 1;
+  }
+
+  #left-section,
+  #right-section {
+    padding: 0 36px;
+  }
+
+  .mockup {
+    padding-right: 18px;
+    height: 126px;
+  }
+
+
+
+
+  /* Contact Page Styles */
+
+  .contact p {
+    width: 80%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 11px;
+  }
+
+
+  /* Footer Styles */
+
+  .footer p {
+    margin-right: 4px;
+    font-size: x-small;
+  }
+
+  .footer img {
+    width: 18px;
+    padding: 0 3px;
+  }
 }
 
 @media only screen and (max-width: 518.4px) {
 
+  .page-header {
+    font-size: 20px;
+    padding: 10px 0 5px 0;
+    margin: 5px 0;
+  }
+
   .nav a {
     font-size: small;
+    &:hover:after {
+      width: 50%;
+      left: 25%;
+    }
+    &:not(:hover):after {
+      width: 0;
+      left: 25%;
+    }
+
   }
 
   .nav img {
@@ -713,12 +1075,121 @@ h1 {
   .landingPage-text {
     text-align: center;
   }
+
+  /* About Page Styles */
+  .about-me {
+    margin: 36px 40px 54px 40px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .hobbies {
+    font-size: 13px;
+  }
+
+  .about-me h1 {
+    font-size: 18px;
+  }
+
+  .about-me ul {
+    font-size: 11px;
+  }
+
+  #textList {
+    width: 75%;
+  }
+
+  /* Skills Page Styles */
+
+  .skills img {
+    width: 40px;
+  }
+
+  .skills-text {
+    margin: 18px 100px;
+    font-size: 11px;
+  }
+
+    /* Projects Page Styles */
+    .projects-header h1 {
+      font-size: xx-small;
+    }
+  
+    #icon {
+      width: 24px;
+      padding: 1px;
+    }
+  
+    h1 {
+      font-size: xx-small;
+    }
+  
+    .projects-text {
+      font-size: 8px;
+    }
+  
+    #left-section,
+    #right-section {
+      padding: 0 27px;
+    }
+  
+    .mockup {
+      padding-right: 13.5px;
+      height: 108px;
+    }
+
+
+
+
+  /* Contact Page Styles */
+
+  .contact p {
+    width: 75%;
+  }
+
+  .contact-form {
+    width: 75%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 10px;
+  }
+
+
+
+  /* Footer Styles */
+
+  .footer p {
+    margin-right: 3px;
+    font-size: xx-small;
+  }
+
+  .footer img {
+    width: 15px;
+    padding: 0 2px;
+  }
+
 }
 
 @media only screen and (max-width: 432px) {
 
+  .page-header {
+    font-size: 18px;
+    padding: 9px 0 4px 0;
+    margin: 4px 0;
+  }
+
   .nav a {
     font-size: small;
+    &:hover:after {
+      width: 45%;
+      left: 27.5%;
+    }
+    &:not(:hover):after {
+      width: 0;
+      left: 27.5%;
+    }
   }
 
   .nav img {
@@ -745,4 +1216,100 @@ h1 {
   .landingPage-text {
     text-align: center;
   }
+
+  /* About Page Styles */
+  .about-me {
+    margin: 36px 20px 54px 20px;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .hobbies {
+    font-size: 12px;
+  }
+
+  .about-me h1 {
+    font-size: 16px;
+  }
+
+  .about-me ul {
+    font-size: 10px;
+  }
+
+  #textList {
+    width: 70%;
+  }
+
+  /* Skills Page Styles */
+
+  .skills img {
+    width: 30px;
+  }
+
+  .skills-text {
+    margin: 18px 50px;
+    font-size: 10px;
+  }
+
+    /* Projects Page Styles */
+
+    .projects-header h1 {
+      font-size: xx-small;
+    }
+  
+    #icon {
+      width: 20px;
+      padding: 1px;
+    }
+  
+    h1 {
+      font-size: xx-small;
+    }
+  
+    .projects-text {
+      font-size: 7px;
+    }
+  
+    #left-section,
+    #right-section {
+      padding: 0 18px;
+    }
+  
+    .mockup {
+      padding-right: 9px;
+      height: 90px;
+    }
+
+
+
+
+  /* Contact Page Styles */
+
+  .contact p {
+    width: 70%;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 9px;
+  }
+
+
+
+  /* Footer Styles */
+
+  .footer p {
+    margin-right: 2px;
+    font-size: xx-small;
+  }
+
+  .footer img {
+    width: 12px;
+    padding: 0 2px;
+  }
+
 }
