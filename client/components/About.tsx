@@ -38,7 +38,7 @@ function About() {
           </p>
           <p>
             I'm passionate about working for a company that makes a difference and contributes to causes close to my
-            heart such as animal welfare, women empowerment / getting more women into tech, women's refuge, and causes
+            heart such as health and fitness, animal welfare, women empowerment / getting more women into tech, women's refuge, and causes
             for the less fortunate. I believe in the power of technology to create positive change and am eager to be
             part of such impactful initiatives.
           </p>
